@@ -54,7 +54,7 @@ struct ContentView: View {
                 }
                 .onDelete(perform: removeItems)
             }
-            .navigationBarTitle("My Expenses")
+            .navigationBarTitle("My expenses")
             .navigationBarItems(trailing:
                                     Button(action: {
                                         self.showingAddExpense = true
